@@ -1,9 +1,18 @@
 {
-  "name": "knex-bigquery",
+  "name": "@avian-aero/knex-bigquery",
   "version": "1.0.0",
-  "description": "BigQuery dialect for Knex.js SQL query builder",
+  "description": "BigQuery dialect for Knex.js",
   "main": "lib/index.js",
   "author": "Ophir Yael (https://github.com/ophiryael)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avian-aero/knex-bigquery.git"
+  },
+  "keywords": [
+    "knex",
+    "bigquery",
+    "dialect"
+  ],
   "license": "MIT",
   "private": false,
   "dependencies": {
