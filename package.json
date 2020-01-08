@@ -2,8 +2,14 @@
   "name": "knex-bigquery",
   "version": "1.0.0",
   "description": "BigQuery dialect for Knex.js SQL query builder",
-  "main": "index.js",
+  "main": "lib/index.js",
   "author": "Ophir Yael (https://github.com/ophiryael)",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "@google-cloud/bigquery": "^4.6.0"
+  },
+  "peerDependencies": {
+    "knex": "^0.20.7"
+  }
 }
