@@ -26,13 +26,18 @@ const knex = require('knex')({
   pool: { min: 0, max: 5 }
 });
 
-const commonNames = await knex('bigquery-public-data.usa_names.usa_1910_2013')
-  .select('name', 'gender')
-  .sum('number as total')
-  .groupBy('name', 'gender')
-  .orderBy('total', 'desc')
-  .limit(3);
+async function getCommonNames() {
+  const commonNames = await knex('bigquery-public-data.usa_names.usa_1910_2013')
+    .select('name', 'gender')
+    .sum('number as total')
+    .groupBy('name', 'gender')
+    .orderBy('total', 'desc')
+    .limit(3);
 
+  console.log(commonNames);
+  await knex.destroy();
+}
+getCommonNames();
 // [
 //   { name: 'James', gender: 'M', total: 4924235 },
 //   { name: 'John', gender: 'M', total: 4818746 },
