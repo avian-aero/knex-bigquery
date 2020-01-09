@@ -1,6 +1,6 @@
 {
   "name": "@avian-aero/knex-bigquery",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "BigQuery dialect for Knex.js",
   "main": "lib/index.js",
   "author": "Ophir Yael (https://github.com/ophiryael)",
