@@ -8,15 +8,15 @@ BigQuery dialect for building and executing queries using Knex.js.
 
 ```bash
 # Yarn:
-yarn add @avian-aero/knex-bigquery
+yarn add knex-bigquery
 # NPM:
-npm install @avian-aero/knex-bigquery
+npm install knex-bigquery
 ```
 
 ## Usage
 
 ```js
-const { BigQueryClient } = require('@avian-aero/knex-bigquery');
+const { BigQueryClient } = require('knex-bigquery');
 const knex = require('knex')({
   client: BigQueryClient,
   connection: {
