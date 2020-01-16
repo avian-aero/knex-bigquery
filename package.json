@@ -1,6 +1,6 @@
 {
   "name": "knex-bigquery",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "BigQuery dialect for Knex.js",
   "main": "lib/index.js",
   "author": "Ophir Yael (https://github.com/ophiryael)",
