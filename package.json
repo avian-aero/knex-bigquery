@@ -19,6 +19,7 @@
     "@google-cloud/bigquery": "^4.6.0"
   },
   "peerDependencies": {
+    "bluebird": "^3.7.2",
     "knex": "^0.20.7"
   }
 }
