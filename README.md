@@ -2,7 +2,10 @@
 
 BigQuery dialect for building and executing queries using Knex.js.
 
-**This library is in early stages of development. Use at your own risk.**
+**This project is no longer maintained**
+
+This project was a quick POC to check whether or not it will be possible to migrate existing knex-postgres codebase to knex-bigquery without too much trouble.  
+Although it was a success, we decided to go with a different approach.
 
 ## Installation
 
