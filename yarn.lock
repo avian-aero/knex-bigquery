@@ -3,9 +3,9 @@
 
 
 "@google-cloud/bigquery@^4.6.0":
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/@google-cloud/bigquery/-/bigquery-4.6.0.tgz#94de9a5a213c7d4185dfd684efb4ec873cb8da5e"
-  integrity sha512-wZnUWimhERJ4XkAp74ClRqgNbRO4ulVhrrwUk+H/vXa9zwi/8wWFjsKmHP1x2G9wIe6pO8Rv5IZZMKG01NlD7A==
+  version "4.7.0"
+  resolved "https://registry.yarnpkg.com/@google-cloud/bigquery/-/bigquery-4.7.0.tgz#4e00624e5a163a22d1861cc3a8b46f023203b0fe"
+  integrity sha512-u3VN1VUWcbVaW2vH5v2t0Zn5RSC4Hj3VCpf6sUO5xqcNTcHQyrjSd21aIBk28HgQO1H+9Gd1E0tGBfknGNONHw==
   dependencies:
     "@google-cloud/common" "^2.0.0"
     "@google-cloud/paginator" "^2.0.0"
